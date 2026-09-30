@@ -1,6 +1,6 @@
 services:
   CICD_Test:
-    image: ghcr.io/chrfasterholt/cicdovelse:latest:latest
+    image: ghcr.io/chrfasterholt/cicdovelse:latest
     restart: unless-stopped
     ports:
      - 8001:8001
